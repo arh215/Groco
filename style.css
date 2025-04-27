@@ -1,0 +1,42 @@
+*::-webkit-scrollbar-track{
+  scroll-behavior: smooth;
+}
+*{
+    text-decoration: none;
+}
+body {
+    background-image: linear-gradient(black, white);
+    background-repeat: no-repeat;
+    background-image: url("bg.png");
+    background-size: auto;
+    height: 100%;
+    width: 100%;
+}
+.icons{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
+#icon1{
+    margin-right: 30px;
+    
+}
+#icon2{
+    margin-right: 30px;
+}
+#icon3{
+    margin-right: 30px;
+}
+#icon4{
+    margin-right: 30px;
+}
+img{
+    height: 100px;
+}
+@font-face {
+    font-family: "script";
+    src: url("fonts/kaushan-script.ttf") format("ttf");
+}
+/* From Uiverse.io by adamgiebl */ 
